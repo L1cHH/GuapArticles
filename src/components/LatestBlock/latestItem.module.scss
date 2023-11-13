@@ -1,0 +1,47 @@
+.latestItem {
+    margin: auto 0;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    height: 340px;
+
+    .container {
+        padding: 40px 60px;
+        display: flex;
+        justify-content: space-between;
+
+        .leftBlock {
+            display: flex;
+            flex-direction: column;
+            row-gap: 27px;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .author {
+                text-decoration: underline;
+            }
+
+            button {
+                background: rgba(250, 238, 135, 1);
+                width: 250px;
+                height: 50px;
+                border-radius: 5px;
+            }
+        }
+
+        .rightBlock {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 20px;
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.main {
+    background-color: rgba(181, 210, 255, 1);
+
+    .container {
+        font-family: 'Inter', sans-serif;
+        max-width: 1500px;
+        padding: 20px 30px;
+        margin: 0 auto;
+
+        h1 {
+            padding-top: 20px;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .lastNews {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 45px;
+        }
+    }
+}

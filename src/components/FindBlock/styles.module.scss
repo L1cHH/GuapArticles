@@ -1,0 +1,54 @@
+.main {
+    background: rgba(81, 79, 144, 1);
+    border-top: 1px solid grey;
+
+    .container {
+        font-family: 'Inter', sans-serif;
+        max-width: 1500px;
+        padding: 0 30px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .textBlock {
+            padding: 40px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+            
+            h1 {
+                font-size: 49px;
+            }
+
+            p {
+                font-size: 24px;
+                
+            }
+
+            .buttons {
+                display: flex;
+                column-gap: 100px;
+
+                .btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid white;
+                    font-size: 20px;
+                    padding: 15px;
+                    position: relative;
+
+                    img {
+                        margin-left: 10px;
+                    }
+                }
+                
+
+            }
+        }
+
+        
+    }
+}

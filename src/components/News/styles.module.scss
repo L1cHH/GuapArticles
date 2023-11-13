@@ -1,0 +1,22 @@
+.main {
+    background: rgba(143, 168, 233, 1);
+
+    .container {
+        font-family: 'Inter', sans-serif;
+        max-width: 1500px;
+        padding: 20px 30px;
+        margin: 0 auto;
+
+        h1 {
+            padding-top: 20px;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .news {
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

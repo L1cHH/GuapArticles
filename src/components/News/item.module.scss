@@ -1,0 +1,36 @@
+.item {
+    background: white;
+    width: 460px;
+    cursor: pointer;
+
+    &:hover {
+        h2 {
+            border-bottom: 1px solid black;
+        }
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+
+        img {
+            margin: 10px auto;
+        }
+
+
+        h2 {
+            margin-top: 30px;
+            font-size: 24px;
+            font-weight: 700;
+
+
+        }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+    }
+}

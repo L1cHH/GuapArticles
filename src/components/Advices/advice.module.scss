@@ -1,0 +1,30 @@
+.advice {
+    background: white;
+    width: 330px;
+    cursor: pointer;
+
+    &:hover {
+        h2 {
+            border-bottom: 1px solid black;
+        }
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+
+
+        }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+    }
+}

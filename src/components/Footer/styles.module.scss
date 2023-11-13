@@ -1,0 +1,44 @@
+.footer {
+    background: rgba(143, 168, 233, 1);
+    .container {
+        font-family: 'Inter', sans-serif;
+        max-width: 1500px;
+        padding: 0 30px;
+        margin: 0 auto;
+        padding-top: 71px;
+        padding-bottom: 75px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        .logo {
+            display: flex;
+            column-gap: 15px;
+            align-items: center;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+
+            row-gap: 16px;
+
+            p {
+                width: 528px;
+            }
+        }
+
+        .relations {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+        }
+
+        .addition {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+        }
+    }
+}

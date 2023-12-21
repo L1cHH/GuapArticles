@@ -1,0 +1,26 @@
+.item {
+  background: white;
+  width: 460px;
+  cursor: pointer;
+}
+.item:hover h2 {
+  border-bottom: 1px solid black;
+}
+.item div {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.item div img {
+  margin: 10px auto;
+}
+.item div h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.item div p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}/*# sourceMappingURL=item.module.css.map */

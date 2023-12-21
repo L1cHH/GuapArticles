@@ -1,0 +1,62 @@
+.main {
+  padding: 20px 50px;
+  background: rgb(81, 79, 144);
+}
+.main .container {
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0 30px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+.main .container .topicBlock {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .container .topicBlock img {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.main .container .rightBlock {
+  display: flex;
+}
+.main .container .rightBlock .magazine {
+  padding: 5px;
+  width: 166px;
+  height: 41px;
+  background: rgb(224, 224, 224);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .container .rightBlock .magazine img {
+  cursor: pointer;
+}
+.main .container .rightBlock .search {
+  color: rgb(134, 134, 134);
+  background: white;
+  padding: 5px 10px;
+  width: 218px;
+  height: 41px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .container .rightBlock .search img {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.main .container .rightBlock a {
+  margin-left: 10px;
+  color: white;
+}
+.main .container .rightBlock a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=styles.module.css.map */

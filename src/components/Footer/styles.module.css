@@ -1,0 +1,38 @@
+.footer {
+  background: rgb(143, 168, 233);
+}
+.footer .container {
+  font-family: "Inter", sans-serif;
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;
+  padding-top: 71px;
+  padding-bottom: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.footer .container .logo {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  align-items: center;
+}
+.footer .container .about {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.footer .container .about p {
+  width: 528px;
+}
+.footer .container .relations {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.footer .container .addition {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}/*# sourceMappingURL=styles.module.css.map */

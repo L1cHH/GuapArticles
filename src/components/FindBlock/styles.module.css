@@ -1,0 +1,43 @@
+.main {
+  background: rgb(81, 79, 144);
+  border-top: 1px solid grey;
+}
+.main .container {
+  font-family: "Inter", sans-serif;
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .container .textBlock {
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.main .container .textBlock h1 {
+  font-size: 49px;
+}
+.main .container .textBlock p {
+  font-size: 24px;
+}
+.main .container .textBlock .buttons {
+  display: flex;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+.main .container .textBlock .buttons .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  font-size: 20px;
+  padding: 15px;
+  position: relative;
+}
+.main .container .textBlock .buttons .btn img {
+  margin-left: 10px;
+}/*# sourceMappingURL=styles.module.css.map */

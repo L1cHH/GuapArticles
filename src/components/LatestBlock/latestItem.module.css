@@ -1,0 +1,40 @@
+.latestItem {
+  margin: auto 0;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 340px;
+}
+.latestItem .container {
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.latestItem .container .leftBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+}
+.latestItem .container .leftBlock h2 {
+  font-size: 20px;
+}
+.latestItem .container .leftBlock h3 {
+  font-size: 18px;
+}
+.latestItem .container .leftBlock .author {
+  text-decoration: underline;
+}
+.latestItem .container .leftBlock button {
+  background: rgb(250, 238, 135);
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+}
+.latestItem .container .rightBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.latestItem .container .rightBlock h2 {
+  font-size: 20px;
+}/*# sourceMappingURL=latestItem.module.css.map */
